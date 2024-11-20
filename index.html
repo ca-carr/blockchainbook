@@ -9,27 +9,22 @@ permalink: index.html
             <div class="row middle-xs">
                 <div class="col-lg-7 col-md-7 col-xs-12 main-video">
                     <div class="monero-video">
-                        <!--iframe width="560" height="315" src="https://www.youtube.com/embed/TZi9xx6aiuY" frameborder="0" allowfullscreen></iframe-->
                         <video controls poster="/img/monero-community.png" preload="metadata" tabindex="0" aria-label="Monero community video">
-                            {% if site.lang != 'pt-br' and site.lang != 'ru' %}
-                                <source src="/media/Monero_Promo.m4v">
-                            {% else %}
-                                <source src="/media/{{ site.lang }}/Monero_Promo.m4v">
-                            {% endif %}
-                        <track label="English" kind="subtitles" srclang="en" src="/media/subtitles/en/monero-promo.vtt">
-                        <track label="Italian" kind="subtitles" srclang="it" src="/media/subtitles/it/monero-promo.vtt">
+                            <source src="/media/Monero_Promo.m4v">
+                            <track label="English" kind="subtitles" srclang="en" src="/media/subtitles/en/monero-promo.vtt">
+                            <track label="Italian" kind="subtitles" srclang="it" src="/media/subtitles/it/monero-promo.vtt">
                         </video>
-                        <a href="{{ site.baseurl }}/get-started/faq/#videos">{% t home.morevideos %}</a>
+                        <a href="{{ site.baseurl }}/get-started/faq/#videos">More Videos</a>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-5 col-xs-12">
                     <div class="main-info">
-                        <h1 id="main-h1">{% t home.heading %}</h1>
-                        <h2 id="main-h2">{% t home.heading2 %}</h2>
-                            <p id="btn-top-box">
-                                <a href="{{ site.baseurl }}/get-started/what-is-monero/" class="btn-link btn-fixed btn-primary-top">{% t home.about %}</a>
-                                <a href="{{ site.baseurl }}/community/workgroups/" class="btn-link btn-fixed btn-primary-top">{% t home.joincommunity %}</a>
-                            </p>
+                        <h1 id="main-h1">Welcome to Blockchain Book</h1>
+                        <h2 id="main-h2">Your Resource for All Things Blockchain</h2>
+                        <p id="btn-top-box">
+                            <a href="{{ site.baseurl }}/get-started/what-is-monero/" class="btn-link btn-fixed btn-primary-top">About Blockchain</a>
+                            <a href="{{ site.baseurl }}/community/workgroups/" class="btn-link btn-fixed btn-primary-top">Join the Community</a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -40,13 +35,13 @@ permalink: index.html
     <section class="container about-main full col-xs-12">
         <div class="info-block">
             <div class="row center-xs">
-                <div class="col"><h2>{% t home.get_started %}</h2></div>
+                <div class="col"><h2>Get Started</h2></div>
             </div>
             <div class="row middle-xs info-block-row private">
                 <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 why-text">
-                    <h3>{% t home.choosewallet %}</h3>
-                        <p>{% t home.choosewallet_para %}</p>
-                        <p><a href="{{ site.baseurl }}/downloads/" class="btn-link btn-fixed">{% t home.downloads %}</a></p>
+                    <h3>Choose a Wallet</h3>
+                    <p>Find the best wallet to securely store your blockchain assets.</p>
+                    <p><a href="{{ site.baseurl }}/downloads/" class="btn-link btn-fixed">Downloads</a></p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-4 col-xs-4 center-xs">
                     <img src="/img/create-wallet.png" width="1500" height="1500" loading="lazy" alt="Create wallet" class="main-icon">
@@ -57,17 +52,16 @@ permalink: index.html
                     <img src="/img/exchange.png" width="1500" height="1500" loading="lazy" alt="Exchange" class="main-icon">
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 why-text">
-                    <h3>{% t home.getcoins %}</h3>
-                    <p>{% t home.getcoins_para %}</p>
-                    <p><a href="{{ site.baseurl }}/community/merchants/" class="btn-link btn-fixed">{% t home.exchanges %}</a></p>
+                    <h3>Get Coins</h3>
+                    <p>Learn how to acquire blockchain assets securely.</p>
+                    <p><a href="{{ site.baseurl }}/community/merchants/" class="btn-link btn-fixed">Exchanges</a></p>
                 </div>
-                
             </div>
             <div class="row middle-xs info-block-row">
                 <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 why-text">
-                    <h3>{% t home.useit %}</h3>
-                    <p>{% t home.useit_para %}</p>
-                    <p><a href="{{ site.baseurl }}/community/merchants/" class="btn-link btn-fixed">{% t home.merchants %}</a></p>
+                    <h3>Use It</h3>
+                    <p>Explore merchants and platforms that accept blockchain payments.</p>
+                    <p><a href="{{ site.baseurl }}/community/merchants/" class="btn-link btn-fixed">Merchants</a></p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-4 col-xs-4 center-xs">
                     <img src="/img/monero-accepted.png" width="1500" height="1500" loading="lazy" alt="Merchants" class="main-icon">
@@ -78,9 +72,9 @@ permalink: index.html
                     <img src="/img/support.png" width="1500" height="1500" loading="lazy" alt="FAQ" class="main-icon">
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 why-text">
-                    <h3>{% t home.answers %}</h3>
-                    <p>{% t home.faq_para %}</p>
-                    <p><a href="{{ site.baseurl }}/get-started/faq/" class="btn-link btn-fixed">{% t home.faq %}</a></p>
+                    <h3>Get Answers</h3>
+                    <p>Find answers to common questions about blockchain technology.</p>
+                    <p><a href="{{ site.baseurl }}/get-started/faq/" class="btn-link btn-fixed">FAQ</a></p>
                 </div>
             </div>
         </div>
@@ -93,24 +87,19 @@ permalink: index.html
             <div class="left two-thirds col-lg-8 col-md-8 col-sm-12 col-xs-12">
                 <div class="info-block">
                     <div class="row center-xs">
-                        <div class="col"><h2>{% t home.guides %}</h2></div>
+                        <div class="col"><h2>User Guides</h2></div>
                     </div>
-                        <div class="row around-xs">
-                            <div class="row center-xs">
-                                <div class="col-xs-12">
-                                    <p>{% t home.guides_para %}</p>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <p><a href="{{site.baseurl}}/resources/user-guides/" class="btn-link btn-fixed">{% t titles.userguides %}</a></p>
-                            </div>
-                            <div class="col">
-                                <p><a href="{{site.baseurl}}/resources/developer-guides/" class="btn-link btn-fixed">{% t titles.developerguides %}</a></p>
-                            </div>
-                            <div class="col">
-                                <p><a href="{{site.baseurl}}/library/" class="btn-link btn-fixed">{% t titles.library %}</a></p>
-                            </div>
+                    <div class="row around-xs">
+                        <div class="col">
+                            <p><a href="{{ site.baseurl }}/resources/user-guides/" class="btn-link btn-fixed">User Guides</a></p>
                         </div>
+                        <div class="col">
+                            <p><a href="{{ site.baseurl }}/resources/developer-guides/" class="btn-link btn-fixed">Developer Guides</a></p>
+                        </div>
+                        <div class="col">
+                            <p><a href="{{ site.baseurl }}/library/" class="btn-link btn-fixed">Library</a></p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- END left two-thirds block-->
@@ -119,50 +108,11 @@ permalink: index.html
             <div class="right one-third col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div class="info-block center-xs">
                     <h2>Moneropedia</h2>
-                    <p class="main-resources">{% t home.moneropedia_para %}</p>
-                    <p><a href="{{site.baseurl}}/resources/moneropedia/" class="orange">{% t home.moneropedia_button %}</a></p>
+                    <p class="main-resources">A comprehensive guide to all things Monero.</p>
+                    <p><a href="{{ site.baseurl }}/resources/moneropedia/" class="orange">Learn More</a></p>
                 </div>
             </div>
             <!-- END right one-third block-->
         </div>
     </section>
-    <!-- Full Block -->
-    <section class="container about-main full col-xs-12">
-        <div class="info-block">
-            <div class="row center-xs">
-                <div class="col"><h2>{% t home.joincommunity %}</h2></div>
-            </div>
-            <div class="row middle-xs info-block-row private">
-                <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8  why-text">
-                    <h3>{% t home.contributecommunity %}</h3>
-                        <p>{% t home.contributecommunity_para %}</p>
-                        <p><a href="{{site.baseurl}}/get-started/contributing/" class="btn-link btn-fixed">{% t home.contributing %}</a></p>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-4 col-xs-4 center-xs">
-                    <img src="/img/learn-about-monero.png" width="1500" height="1500" loading="lazy" alt="Contribute" class="main-icon">
-                </div>
-            </div>
-            <div class="row middle-xs info-block-row">
-                <div class="col-lg-6 col-md-6 col-sm-4 col-xs-4 center-xs first-md last-sm last-xs">
-                    <img src="/img/mrl-logo.svg" width="1500" height="1500" loading="lazy" alt="Monero Research Lab" class="main-icon-mrl">
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 why-text">
-                    <h3>{% t titles.researchlab %}</h3>
-                    <p>{% t home.researchlab_para %}</p>
-                    <p><a href="{{site.baseurl}}/resources/research-lab/" class="btn-link btn-fixed">{% t home.visitmrl %}</a></p>
-                </div>
-           </div>
-           <div class="row middle-xs info-block-row private">
-                <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8  why-text">
-                    <h3>{% t home.meetcommunity %}</h3>
-                        <p>{% t home.meetus %}</p>
-                        <p><a href="{{site.baseurl}}/community/hangouts/" class="btn-link btn-fixed">{% t home.hangouts %}</a></p>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-4 col-xs-4 center-xs">
-                    <img src="/img/community-logo.png" width="1500" height="1500" loading="lazy" alt="Contribute" class="main-icon">
-                </div>
-            </div>
-        </div>
-    </section> 
-    <!-- END Full Block -->
 </div>
