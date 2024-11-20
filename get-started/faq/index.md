@@ -83,9 +83,9 @@ meta_descr: faq.intro
                         <h2>{% t faq.resandhelp %}</h2>
                     </div>
                 </div>
-                <h3><a href="{{ site.baseurl }}/resources/user-guides/">{% t titles.userguides %}</a></h3>
+                <h3><a href="{{ site.baseurl }}/resources/user-guides/">User Guides</a></h3>
                     <p>{% t faq.userguides %}</p>
-                <h3><a href="{{ site.baseurl }}/resources/developer-guides/">{% t titles.developerguides %}</a></h3>
+                <h3><a href="{{ site.baseurl }}/resources/developer-guides/">Developer Guides</a></h3>
                     <p>{% t faq.devguides %}</p>
                 <h3><a href="https://monero.stackexchange.com/">StackExchange</a></h3>
                     <p>{% t faq.stackexchange %}</p>
@@ -369,6 +369,6 @@ meta_descr: faq.intro
             </div>
         </div>
         <!-- END full block-->
-        <a aria-label="{% t accessibility.arrowup %}" href="#" class="arrow-up"><i></i></a>
+        <a aria-label="Go to top" href="#" class="arrow-up"><i></i></a>
     </div>
 </section>

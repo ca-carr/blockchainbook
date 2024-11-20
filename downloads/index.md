@@ -421,5 +421,5 @@ meta_descr: downloads.intro
                 <!-- End 'Hardware Wallets' -->
             </section>
     </div>
-    <a href="#" class="arrow-up" aria-label="{% t accessibility.arrowup %}" title="{% t accessibility.gotop %}"><i></i></a>
+    <a href="#" class="arrow-up" aria-label="Go to top" title="Go to top"><i></i></a>
 </div>

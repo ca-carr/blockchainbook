@@ -166,7 +166,7 @@ meta_descr: meta_descr.mrl
                 <div class="info-block">
                     <div class="row">
                         <div class="col">
-                            <h2>{% t titles.library %}</h2>
+                            <h2>Library</h2>
                             <div>
                                 <p>{% t research-lab.libraryp %}</p><br>
                                 <div class="center-xs">
