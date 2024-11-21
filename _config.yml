@@ -23,8 +23,7 @@ email: c.a.carr@exeter.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Blockchains, Smart Contracts and Cryptocurrencies --- A Technical Introduction
 baseurl: "/blockchainbook" # the subpath of your site, e.g. /blog
-url: "https://blockchainbook.cacarr.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+url: "https://cacarr.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ca-carr
 
 # Build settings
@@ -53,6 +52,9 @@ defaults:
       type: "docs"
     values:
       layout: docs
+
+markdown: kramdown
+highlighter: rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default.
