@@ -18,21 +18,41 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Blockchain Book
+email: c.a.carr@exeter.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Blockchains, Smart Contracts and Cryptocurrencies --- A Technical Introduction
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blockchainbook.cacarr.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  ca-carr
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - just-the-docs
+
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+
+just_the_docs:
+  logo: "/assets/images/logo.png"
+  search_enabled: true
+  collections:
+    docs:
+      title: "Documentation"
+      permalink: /docs/
+
+defaults:
+  - scope:
+      path: "_docs"
+      type: "docs"
+    values:
+      layout: docs
 
 # Exclude from processing.
 # The following items will not be processed, by default.
