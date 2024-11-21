@@ -1,6 +1,5 @@
-ietemplates/
-_site/*
-.idea/
-*.swp
-.jekyll-cache/
+_site
+.sass-cache
+.jekyll-cache
 .jekyll-metadata
+vendor
