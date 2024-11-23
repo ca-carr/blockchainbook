@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+<meta name="description" content="Blockchain Book">
+<meta property="og:title" content="Blockchain Book">
+<meta property="og:description" content="A resource for blockchain knowledge.">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ site.baseurl }}/assets/blockchain-book-cover.png">
+
+
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
