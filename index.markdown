@@ -6,8 +6,7 @@ permalink: /
 
 # Welcome to Blockchain Book
 
-Learn everything about blockchain technology! This is your go-to resource for understanding blockchain fundamentals, advanced topics, and more.
-
+Blockchain book
 ## Get Started
 - [Introduction to Blockchain]({{ site.baseurl }}/docs/getting_started/)
 - [Advanced Topics]({{ site.baseurl }}/docs/advanced-topics/)
