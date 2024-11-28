@@ -1,23 +1,17 @@
 ---
 layout: home
-title: "Welcome to Blockchain Book"
+title: "Blockchain Book"
 permalink: /
 ---
 
-# Welcome to Blockchain Book
+# Blockchain Book
 
 Blockchain book
-## Get Started
-- [Introduction to Blockchain]({{ site.baseurl }}/docs/getting_started/)
-- [Advanced Topics]({{ site.baseurl }}/docs/advanced-topics/)
-- [FAQ]({{ site.baseurl }}/faq/)
 
----
+### Sample Chapters
 
-### Explore the Blockchain Book
-Here are some of the key sections:
+1. [Here]{/docs/token.md}**Deploying a live token.** Deploying a basic ERC20 token.
 
-1. **Getting Started**: Understand blockchain from the ground up.
-2. **Advanced Topics**: Deep dive into cryptographic principles and technical architecture.
+### Exercises
 
-Start your journey by navigating through the [documentation]({{ site.baseurl }}/docs/getting_started/).
+

@@ -21,7 +21,7 @@
 title: Blockchain Book
 email: c.a.carr@exeter.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  Blockchains, Smart Contracts and Cryptocurrencies --- A Technical Introduction
+  Blockchains, Smart Contracts and Cryptocurrencies, A Technical Introduction
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blockchainbook.cacarr.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ca-carr
