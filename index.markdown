@@ -19,6 +19,5 @@ Here are some of the key sections:
 
 1. **Getting Started**: Understand blockchain from the ground up.
 2. **Advanced Topics**: Deep dive into cryptographic principles and technical architecture.
-3. **Case Studies**: Learn from real-world blockchain applications.
 
 Start your journey by navigating through the [documentation]({{ site.baseurl }}/docs/getting_started/).
