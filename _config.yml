@@ -32,6 +32,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - just-the-docs
+  - jekyll-sitemap
 
 collections:
   docs:
@@ -55,6 +56,21 @@ defaults:
 
 markdown: kramdown
 highlighter: rouge
+
+
+seo:
+  title: "Blockchain Book"
+  description: "Technical insights into blockchain, cryptocurrencies, and smart contracts."
+  linkedin: "https://www.linkedin.com/in/cacarr1/"
+  email: "c.a.carr@exeter.ac.uk"
+  personal_website: "https://cacarr.com"
+  url: "https://blockchainbook.cacarr.com"
+  author: "C A Carr"
+  image: "/assets/images/seo-image.png"
+  keywords: "blockchain, cryptocurrencies, smart contracts, technical introduction"
+  type: "website"
+  locale: "en_US"
+  site_name: "Blockchain Book"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
