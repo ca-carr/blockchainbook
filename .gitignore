@@ -1,7 +1,31 @@
-_site
-.sass-cache
-.jekyll-cache
+# Exclude the generated site directory
+_site/
+
+# Exclude cache and metadata
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
-vendor
-_layout
+
+# Exclude Ruby dependencies
+vendor/
+.bundle/
+
+# Exclude build-related files
+Gemfile.lock
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Exclude system-specific files
+.idea/
+.vscode/
+*.bak
+
+# Optional: Exclude specific directories if they're not required in the repo
+node_modules/
+coverage/
 
